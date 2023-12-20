@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="light">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="lofi">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>{{ $title ?? 'Page Title' }}</title>
         @vite('resources/css/app.css')
+        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
-    <body>
-        <div class="navbar bg-base-100">
+    <div class="navbar bg-">
+    <body class="font-mono">
             <div class="flex-1">
-                <a class="btn btn-ghost text-xl">UaiSO</a>
+                <a class="btn btn-ghost text-2xl">UaiSO</a>
             </div>
             <div class="flex-none">
               <ul class="menu menu-horizontal px-1">
